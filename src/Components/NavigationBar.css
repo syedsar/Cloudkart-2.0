@@ -1,0 +1,23 @@
+.navbar {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+  /* position: relative; */
+  transition-delay: 0.1s;
+}
+
+.navbar .nav-item :hover.nav-link {
+  color: #5bc0de;
+  border-bottom: solid #5bc0de;
+}
+
+.navbar img {
+  height: 60px;
+  margin-right: 5px;
+}
+
+.menu-active {
+  color: #5bc0de;
+  border-bottom: solid #5bc0de;
+}

@@ -1,0 +1,43 @@
+#home-header {
+  /* background-color: #2196f3; */
+}
+
+.home img {
+  max-height: 150px;
+  min-width: 100%;
+}
+
+#description {
+  background-color: white;
+}
+
+figure img {
+  max-height: 600px;
+  min-width: auto;
+}
+
+#home-header #img-animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Home About Section */
+.home-about-img {
+  max-height: auto;
+  max-width: auto;
+}
